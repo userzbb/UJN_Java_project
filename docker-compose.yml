@@ -1,0 +1,18 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: postgres:17-alpine
+    container_name: mysite-postgres
+    environment:
+      POSTGRES_USER: mysite
+      POSTGRES_PASSWORD: mysite123
+      POSTGRES_DB: wireless
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  pgdata:
