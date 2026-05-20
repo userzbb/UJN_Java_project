@@ -29,8 +29,8 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### VS Code ###
-.vscode/
+
+
 
 ### Node / Vue ###
 node_modules/
@@ -50,7 +50,6 @@ uv.lock
 .env.*.local
 
 ### Claude Code ###
-.claude/
 
 ### Datasets (binary/large files) ###
 datasets/

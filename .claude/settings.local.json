@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell:*)",
+      "WebSearch",
+      "WebFetch(domain:ps.zpj.io)",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "Bash(java -version)",
+      "Bash(./mvnw --version)",
+      "Bash(docker compose:*)",
+      "Bash(uv sync:*)",
+      "Bash(./mvnw compile:*)",
+      "Bash(./mvnw dependency:tree -Dincludes=com.fasterxml.jackson.core:jackson-databind -q)",
+      "Bash(uv run:*)",
+      "Bash(curl -s http://localhost:8765/health)",
+      "Bash(curl:*)",
+      "Bash(./mvnw spring-boot:run -q)",
+      "Bash(taskkill //F //FI \"WINDOWTITLE eq mysite*\")",
+      "Bash(pkill -f \"spring-boot\")",
+      "Bash(pkill -f \"mysite\")",
+      "mcp__plugin_chrome-devtools-mcp_chrome-devtools__navigate_page",
+      "mcp__plugin_chrome-devtools-mcp_chrome-devtools__take_snapshot",
+      "mcp__plugin_chrome-devtools-mcp_chrome-devtools__click",
+      "mcp__plugin_chrome-devtools-mcp_chrome-devtools__select_page",
+      "mcp__plugin_chrome-devtools-mcp_chrome-devtools__fill",
+      "mcp__plugin_chrome-devtools-mcp_chrome-devtools__take_screenshot",
+      "Bash(docker exec mysite-postgres:*)",
+      "mcp__plugin_chrome-devtools-mcp_chrome-devtools__list_console_messages",
+      "mcp__plugin_chrome-devtools-mcp_chrome-devtools__evaluate_script",
+      "mcp__plugin_playwright_playwright__browser_navigate",
+      "mcp__plugin_playwright_playwright__browser_take_screenshot",
+      "mcp__plugin_playwright_playwright__browser_evaluate",
+      "Bash(git status:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}
